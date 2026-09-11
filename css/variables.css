@@ -1,0 +1,19 @@
+:root {
+  --color-dark-blue: #1A0089;
+  --color-portland-orange: #FF5E33;
+  --color-white-chocolate: #EFE7D3;
+  --color-june-bud: #B7CF4F;
+
+  --bg:var(--color-white-chocolate);
+  --text:var(--color-dark-blue);
+  --accent:var(--color-portland-orange);
+
+  --alataregular: "Alata", sans-serif;
+}
+
+/*Alata Regular Font*/
+.alata-regular {
+  font-family: var(--alataregular);
+  font-weight: 400;
+  font-style: normal;
+}
