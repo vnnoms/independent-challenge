@@ -86,3 +86,12 @@ footer{
   font-size: 15px;
   color: var(--bg);
 }
+
+blockquote {
+    margin: 20px 0;
+    padding: 15px 20px;
+    border-left: 5px solid var(--text);
+    background-color: var(--accent);
+    font-style: italic;
+    color: var(--text);
+}
