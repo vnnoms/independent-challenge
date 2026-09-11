@@ -1,12 +1,12 @@
 :root {
   --color-dark-blue: #1A0089;
-  --color-portland-orange: #FF5E33;
+  --color-pale-blue: #b5dcf4;
   --color-white-chocolate: #EFE7D3;
   --color-june-bud: #B7CF4F;
 
   --bg:var(--color-white-chocolate);
   --text:var(--color-dark-blue);
-  --accent:var(--color-portland-orange);
+  --accent:var(--color-pale-blue);
 
   --alataregular: "Alata", sans-serif;
 }

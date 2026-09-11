@@ -1,22 +1,23 @@
 body {
     margin: 0;
     font-family: var(--alataregular), sans-serif;
-    background-color: var(--bg-dynamic);
+    background-color: var(--bg);
     color: var(--text);
     min-height: 100vh;
     transition: background-color 0.8s ease, color 0.8s ease;
     overflow-x: auto;
-    justify-content: center;
-
     cursor: default;
     user-select: none;
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
-.label{
-  font-family: var(--alataregular);
-  font-size: 20px;
-  color: var(--color-dark-blue);
+
+.label {
+    font-family: var(--alataregular);
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 1.25;
+    margin-top: 20px;
 }
 
 .navbar{
@@ -24,18 +25,10 @@ body {
   top:0; left:0; right:0;
   z-index: 100;
   display:flex;
-  align-items:center;
+  align-items:flex-end;
   justify-content:space-between;
   padding: 18px 48px;
-  background: var(--accent-dynamic);
-  border-bottom: 1px solid var(--bg-dynamic);
-  opacity: 0;
-  transform: translateY(-100%);
-  pointer-events: none;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-.navbar.solid{
+  background: var(--accent);
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
@@ -45,6 +38,7 @@ body {
   display:flex;
   gap: 40px;
   list-style:none;
+  margin:0;
 }
 
 .contact{
@@ -55,8 +49,7 @@ body {
 }
 
 .contact-copy{
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--alataregular);
   font-size: 45px;
   max-width: 700px;
   line-height: 1.25;
@@ -69,13 +62,27 @@ body {
   text-align:right;
 }
 
+footer {
+  width: 100%;
+  background-color: var(--text); 
+}
+
+.footer-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 24px 48px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 15px;
+  color: var(--text);
+}
+
 footer{
   padding: 24px 48px 40px;
   width: 1512px;
   display:flex;
   justify-content:space-between;
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent-dynamic);
+  font-size: 15px;
+  color: var(--bg);
 }
